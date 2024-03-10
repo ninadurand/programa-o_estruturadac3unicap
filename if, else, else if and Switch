@@ -1,0 +1,18 @@
+//Q1
+#include <stdio.h>
+
+int main(){
+    int numero;
+    printf("digite um numero ?");
+
+    scanf("%d", &numero);
+    if (numero == 0){
+        printf("numero igual a zero ");
+    }else if(numero > 0){
+        printf ("%d é um numero positivo ", numero);
+    }else{
+        printf("%d é um numero negativo", numero);
+    }    
+    return 0;
+}
+//Q2
